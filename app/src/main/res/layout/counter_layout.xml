@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/jiajian_bg"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/jia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="＋"
+        android:textSize="30sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#999999" />
+
+    <EditText
+        android:id="@+id/jiajian_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="10" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#999999" />
+
+    <TextView
+        android:id="@+id/jian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="－"
+        android:textSize="30sp" />
+</LinearLayout>
